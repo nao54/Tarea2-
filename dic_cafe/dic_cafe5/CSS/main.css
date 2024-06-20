@@ -40,7 +40,7 @@ div,li {
 }
 .key {
   height: 500px;
-  background: center / cover no-repeat url("/dic_cafe/dic_cafe5/imagenes/sample_key.jpg");
+  background: center / cover no-repeat url("../imagenes/sample_key.jpg");
   font-family: 'Noto Serif JP', serif;
   font-weight: bold;
   justify-content: center;
@@ -138,7 +138,7 @@ img {
   width: 35%;
 }
 .menu_section{
-  background: url(/dic_cafe/dic_cafe5/imagenes/sample_menu_bg.jpg) no-repeat bottom;
+  background: url("../imagenes/sample_menu_bg.jpg") no-repeat bottom;
   background-size: 100%;
   background-attachment: fixed;
 }
@@ -200,6 +200,7 @@ article {
 .coffee_menu {
   background: #fff;
   padding: 20px;
+  margin: 20px;
 }
 .caffee_menu_list_item {
   width: 49%;
